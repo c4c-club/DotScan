@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "DotScan"
+include ':java'
+include ':opencv'

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingTop="30dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/im_dot"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/welcome"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn_import"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:text="import"
+            android:textSize="18sp"
+            android:background="@drawable/btn_bg"
+            android:textColor="#696969"
+            />
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:text="scan"
+            android:textSize="18sp"
+            android:background="@drawable/btn_bg"
+            android:textColor="#696969"
+            />
+        <Button
+            android:id="@+id/btn_analyze"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="analyze"
+            android:textSize="18sp"
+            android:background="@drawable/btn_bg"
+            android:textColor="#696969"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textSize="20sp"
+        android:textColor="#696969"
+        />
+
+</LinearLayout>
